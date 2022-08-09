@@ -1,7 +1,7 @@
 # Doxxin-Z
 
 
-```git clone https://github.com/ze4n-github/Doxxin-Z```
+```git clone <a>https://github.com/Nocturnal-OFC/Doxxin-Z</a>```
 
 ```cd Doxxin-Z```
 
