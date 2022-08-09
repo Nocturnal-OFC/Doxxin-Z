@@ -42,17 +42,9 @@
  LIGHTAQUA=`echo -en "\e[106m"`
  WHITE=`echo -en "\e[107m"`
  DEFAULT=`echo -en "\e[49m"`
-
-
-
-
 opc=0
-
-
 while [ $opc -ne 4 ] ; do
-
 clear
-
 #presentación
 echo ${aqua}"██████╗░░█████╗░██╗░░██╗██╗░░██╗██╗███╗░░██╗░░░░░░███████╗"
 echo "██╔══██╗██╔══██╗╚██╗██╔╝╚██╗██╔╝██║████╗░██║░░░░░░╚════██║"
@@ -62,13 +54,10 @@ echo "██████╔╝╚█████╔╝██╔╝╚██╗�
 echo "╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░░░░░░╚══════╝"
 echo "$normal"
 sleep 1
-
 #autor
 echo ${LIGHTGREEN}"Autor    : ZE4N && Nocturnal"
 sleep 1
 echo "$normal"
-
-
 #menú
 echo ${lightblue}"[1] IP LOGGER"
 sleep 0.1
@@ -99,14 +88,10 @@ sleep 0.1
 echo "[14] {Autor}"
 sleep 0.1
 echo "[99] Salir "
-
-
 echo "$normal"
 echo ${aqua}
 sleep 1
 read -p "[~] Seleccioné una opción > " opc
-
-
 case $opc in
         1) termux-open https://grabify.link/
            ;;
@@ -137,8 +122,5 @@ case $opc in
        14) termux-open https://nocturnal-ofc.github.io/N-Z/
            ;;
        99) break
-
-
 esac
-
 done
